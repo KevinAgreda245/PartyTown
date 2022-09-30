@@ -1,0 +1,38 @@
+# ----------------------------------------------------------------------
+# | Ignore the folders                                                 |
+# ----------------------------------------------------------------------
+
+IndexIgnore *
+
+# ----------------------------------------------------------------------
+# | Remove the extensions                                               |
+# ----------------------------------------------------------------------
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+</IfModule>
+
+# ----------------------------------------------------------------------
+# | Custom error messages/pages                                        |
+# ----------------------------------------------------------------------
+
+ErrorDocument 404 /PartyTown/resources/pages/error404.html
+ErrorDocument 403 /PartyTown/resources/pages/error403.html
+
+
+# ----------------------------------------------------------------------
+# | File access                                                        |
+# ----------------------------------------------------------------------
+
+# Block access to directories without a default document.
+#
+# You should leave the following uncommented, as you shouldn't allow
+# anyone to surf through every directory on your server (which may
+# includes rather private places such as the CMS's directories).
+
+<IfModule mod_autoindex.c>
+    Options All -Indexes
+</IfModule>

@@ -1,0 +1,107 @@
+#login {
+    display: inline-block;
+    padding: 32px 48px 0px 48px;
+    border: 1px solid #EEE;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Texto', sans-serif;
+    background-color: #ffffff;
+    width: 100vw;
+}
+
+#navi,
+#info-body {
+    padding-left: 300px;
+}
+
+#info-body {
+    padding-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.Fourth {
+    margin-top: 20px;
+}
+
+#slide-out {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.Final {
+    margin-top: 100px;
+    background-color: #0090C1;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .Fourth,
+    .Final {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #navi,
+    #info-body {
+        padding-left: 0;
+    }
+}
+
+#head-cont {
+    overflow-wrap: break-word;
+}
+
+h1.ini-header {
+    font-weight: bold;
+}
+
+#main-body {
+    color: black;
+    background-color: #87BCDE;
+}
+
+#navi,
+.nav-wrapper,
+#navi-cont {
+    background-color: #4dd0e1;
+}
+
+a {
+    color: black;
+}
+
+.mdl-button--raised.mdl-button--colored {
+    background: #0090C1;
+    color: #fff;
+}
+
+.mdl-button--raised.mdl-button--colored {
+    background: #0090C1;
+    color: #fff;
+}
+
+.modals {
+    width: 80vw;
+    height: 100vh;
+}
+
+#actulizarComentario {
+    width: 57vw;
+    height: 50vh;
+}
+
+;
+.cursor {
+    cursor: pointer;
+}
+
+;
+#reporteFacturas {
+    width: 57vw;
+}

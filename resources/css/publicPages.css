@@ -1,0 +1,51 @@
+.slider .indicators .indicator-item.active {
+    background-color: #0c3d46;
+}
+.slider .indicators .indicator-item {
+    background-color: 	#d47d72;
+}
+blockquote {
+    border-left: 5px solid #4dd0e1;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+    color: #000000;
+}
+.tabs .tab a {
+    color: #000000;
+}
+.tabs .indicator {
+    background-color: #5e5e5e;
+}
+.tab a.active {
+    color: #000000
+}
+.tabs .tab a {
+    color: #000000;
+}
+.modals{
+    width: 80vw;
+    height: 100vh;
+}
+.ec-stars-wrapper {
+	font-size: 0;
+	display: inline-block;
+}
+.ec-stars-wrapper a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 32px;
+	font-size: 2rem;
+	color: #888;
+}
+
+.ec-stars-wrapper:hover a {
+	color: rgb(255, 187, 0);
+}
+.ec-stars-wrapper > a:hover ~ a {
+	color: #888;
+}
+.input-field input[type=search]:focus:not(.browser-default){
+    background-color:#dcedc8;
+}
